@@ -1,0 +1,80 @@
+*{ 
+    padding: 0px;
+    margin: 0px;
+   width: 10vh;
+    background-image: url(https://img.freepik.com/premium-vector/blank-math-template-with-math-symbol_1639-26329.jpg?semt=ais_hybrid);   
+    
+}
+ .outerborder{
+    position:relative;
+    border:6px solid rgb(44, 230, 205);
+    width:420px;
+    height: 590px;
+     border-radius:20px;
+     left: 32pc;
+     top:230px;
+     box-shadow: rgb(37, 39, 42) 6px 6px 6px 6px;
+ }
+ .innerline{
+   
+    position:relative;
+    border: 4px solid rgb(18, 186, 172);
+    width:390px;
+    height:560px;
+    bottom:22pc;
+    left:33pc;
+    border-radius:20px ;
+ }
+ .buttons{
+position: relative;
+    padding: 13px;
+    margin:2px;
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    gap: 15px ;
+    grid-row: auto;
+    top:15pc;
+    background-image: none;
+
+ }
+ #equal{
+   grid-column-start: 2;
+   grid-column-end: 4;
+   width: 160px;
+   font-weight: 700;
+}
+ 
+ 
+ 
+.button{
+   position:relative;
+   background-image: none;
+   padding: 8px;
+   margin-left: 8px;
+   font-size: 24px;
+   text-align: center;
+   cursor: pointer;
+   outline: none;
+   color: #343636;
+   background-color: #51b2af;
+   border: none;
+   border-radius: 15px;
+   box-shadow: 0 7px rgb(48, 126, 116);
+   font-weight:700;
+}
+.button:active {
+   background-color: #50838a;
+   transform: translateY(4px);
+}
+ #screen{
+  position: relative;
+ background-color: rgb(54, 52, 52);
+      width:370px;
+      height: 160px;
+      border: 4px solid rgb(93, 205, 168);
+      bottom: 270px;
+      left: 6px;
+      border-radius: 20px;
+      background-image: none;
+
+ }
